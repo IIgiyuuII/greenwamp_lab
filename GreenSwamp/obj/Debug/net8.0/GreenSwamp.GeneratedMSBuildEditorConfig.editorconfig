@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GreenSwamp
+build_property.RootNamespace = GreenSwamp
+build_property.ProjectDir = D:\Ycheba\ServernProg\GreenSwamp\GreenSwamp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Ycheba\ServernProg\GreenSwamp\GreenSwamp
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Pages/404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcNDA0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Pages/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Pages/feed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZmVlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Pages/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Pages/messeger.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbWVzc2VnZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Pages/post.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccG9zdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Pages/profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Pages/register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Pages/Tos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6hhutlnajv

@@ -1,0 +1,100 @@
+﻿@page
+@{
+    ViewData["Title"] = "About Greenswamp";
+}
+
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <!-- Header Section -->
+    <div class="text-center mb-16">
+        <div class="flex items-center justify-center space-x-4">
+            <img src="~/images/green-toad-logo.svg" alt="Greenswamp Logo" class="h-20 w-20">
+            <h1 class="text-5xl font-bold text-swamp-900">About Our Pond</h1>
+        </div>
+        <p class="mt-4 text-lg text-swamp-700 max-w-2xl mx-auto">
+            Where campus connections grow like lily pads!
+        </p>
+    </div>
+
+    <!-- Story Section -->
+    <section class="mb-16">
+        <div class="bg-white rounded-xl shadow-sm p-8">
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="flex-1">
+                    <h2 class="text-3xl font-bold text-swamp-900 mb-4">From Tadpole to Toad</h2>
+                    <p class="text-swamp-700 leading-relaxed">
+                        Greenswamp began as a class project in 2023 when our founder,
+                        Professor Ribbit, noticed students hopping between too many apps.
+                        We wanted to create one cozy digital pond where campus life could flourish.
+                        🐸
+                    </p>
+                </div>
+                <img src="~/images/professor-about.png" alt="Professor Ribbit"
+                     class="w-full md:w-1/2 rounded-lg shadow-sm">
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="grid md:grid-cols-3 gap-8 mb-16">
+        <div class="bg-white p-6 rounded-xl shadow-sm">
+            <div class="w-12 h-12 flex items-center justify-center bg-swamp-100 rounded-full">
+                <!-- здесь можно вставить любой SVG из оригинала -->
+                <svg class="text-swamp-600 w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+                </svg>
+            </div>
+            <h3 class="mt-4 text-xl font-semibold text-swamp-900">Grow Together</h3>
+            <p class="mt-2 text-swamp-600">Connect across departments, clubs, and dorms</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-sm">
+            <div class="w-12 h-12 flex items-center justify-center bg-swamp-100 rounded-full">
+                <svg class="text-swamp-600 w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+                </svg>
+            </div>
+            <h3 class="mt-4 text-xl font-semibold text-swamp-900">Safe Space</h3>
+            <p class="mt-2 text-swamp-600">Verified .edu accounts only - no predators in our pond</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-xl shadow-sm">
+            <div class="w-12 h-12 flex items-center justify-center bg-swamp-100 rounded-full">
+                <svg class="text-swamp-600 w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/>
+                </svg>
+            </div>
+            <h3 class="mt-4 text-xl font-semibold text-swamp-900">Have Fun</h3>
+            <p class="mt-2 text-swamp-600">Custom frogmojis, events, and campus traditions</p>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="mb-16">
+        <h2 class="text-3xl font-bold text-swamp-900 mb-8 text-center">Our Swamp Keepers</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-xl shadow-sm text-center">
+                <img src="https://i.pravatar.cc/150?img=1" alt="Team member"
+                     class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                <h3 class="font-semibold text-swamp-900">Lily Padman</h3>
+                <p class="text-sm text-swamp-600">Chief Pond Officer</p>
+                <p class="mt-2 text-swamp-700 text-sm">"Keeping the algae at bay since '22"</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm text-center">
+                <img src="https://i.pravatar.cc/150?img=2" alt="Team member"
+                     class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                <h3 class="font-semibold text-swamp-900">Fiona Frogsworth</h3>
+                <p class="text-sm text-swamp-600">Head of Ribbitions</p>
+                <p class="mt-2 text-swamp-700 text-sm">"Professional croak consultant"</p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm text-center">
+                <img src="https://i.pravatar.cc/150?img=3" alt="Team member"
+                     class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                <h3 class="font-semibold text-swamp-900">Tad Cooper</h3>
+                <p class="text-sm text-swamp-600">Digital Lilypad Engineer</p>
+                <p class="mt-2 text-swamp-700 text-sm">"Building better logs since 2023"</p>
+            </div>
+        </div>
+    </section>
+</div>
