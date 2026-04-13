@@ -1,9 +1,21 @@
 using GreenSwamp.Middleware;
+using GreenSwamp.Pages;
+using GreenSwamp.Services;
 
+
+    
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+builder.Services.AddControllers();
+builder.Services.AddScoped<IContactService, ContactService>();
+builder.Services.AddScoped<ISubscribeService, SubscribeService>();
+
+
+builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
+builder.Services.AddScoped<IEmailService, EmailService>();
 
 var app = builder.Build();
 
@@ -23,6 +35,8 @@ app.UseRouting();
 app.UseStatusCodePagesWithReExecute("/404");
 
 app.UseAuthorization();
+
+app.MapControllers();
 
 app.MapRazorPages();
 

@@ -125,6 +125,27 @@
         @RenderBody()
     </main>
 
+    <!-- Subscribe Notification -->
+        @if (TempData?["SubscribeSuccess"] != null || TempData?["SubscribeError"] != null)
+        {
+            <div id="subscribe-notification" 
+                 class="fixed bottom-6 right-6 z-[200] px-6 py-4 rounded-2xl shadow-xl text-white flex items-center gap-3 max-w-xs">
+                
+                @if (TempData["SubscribeSuccess"] != null)
+                {
+                    <div class="bg-green-600 rounded-2xl px-6 py-4">
+                        @TempData["SubscribeSuccess"]
+                    </div>
+                }
+                else if (TempData["SubscribeError"] != null)
+                {
+                    <div class="bg-red-600 rounded-2xl px-6 py-4">
+                        @TempData["SubscribeError"]
+                    </div>
+                }
+            </div>
+        }
+
     <!-- Footer -->
     <footer class="bg-swamp-900 text-white mt-auto">
         <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
@@ -156,10 +177,15 @@
                 </div>
                 <div>
                     <h4 class="text-sm font-semibold">Stay Updated</h4>
-                    <form class="mt-4 flex">
-                        <input type="email" placeholder="Enter your email"
-                               class="px-4 py-2 rounded-l-full flex-1 text-swamp-900 focus:outline-none">
-                        <button type="submit" class="bg-swamp-500 px-6 py-2 rounded-r-full hover:bg-swamp-600">
+                    <form method="post" asp-controller="Subscribe" asp-action="Subscribe" class="mt-4 flex">
+                        <input type="email" 
+                               name="Email"
+                               placeholder="your@email.edu"
+                               required
+                               class="px-4 py-2 rounded-l-full flex-1 text-swamp-900 focus:outline-none focus:ring-2 focus:ring-swamp-400">
+        
+                        <button type="submit" 
+                                class="bg-swamp-500 px-6 py-2 rounded-r-full hover:bg-swamp-600 font-medium transition-colors">
                             Subscribe
                         </button>
                     </form>
@@ -168,5 +194,18 @@
         </div>
     </footer>
 
+
+
+    <script>
+        // Автоматическое скрытие уведомления о подписке через 4 секунды
+        setTimeout(() => {
+            const notification = document.getElementById('subscribe-notification');
+            if (notification) {
+                notification.style.transition = 'opacity 0.5s';
+                notification.style.opacity = '0';
+                setTimeout(() => notification.remove(), 500);
+            }
+        }, 4000);
+    </script>
 </body>
 </html>

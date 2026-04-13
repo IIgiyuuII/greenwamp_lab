@@ -31,3 +31,12 @@ D:\Ycheba\ServernProg\GreenSwamp\GreenSwamp\obj\Debug\net8.0\refint\GreenSwamp.d
 D:\Ycheba\ServernProg\GreenSwamp\GreenSwamp\obj\Debug\net8.0\GreenSwamp.pdb
 D:\Ycheba\ServernProg\GreenSwamp\GreenSwamp\obj\Debug\net8.0\GreenSwamp.genruntimeconfig.cache
 D:\Ycheba\ServernProg\GreenSwamp\GreenSwamp\obj\Debug\net8.0\ref\GreenSwamp.dll
+D:\Ycheba\ServernProg\GreenSwamp\GreenSwamp\bin\Debug\net8.0\CsvHelper.dll
+D:\Ycheba\ServernProg\GreenSwamp\GreenSwamp\obj\Debug\net8.0\GreenSwamp.csproj.AssemblyReference.cache
+D:\Ycheba\ServernProg\GreenSwamp\GreenSwamp\obj\Debug\net8.0\GreenSwamp.sourcelink.json
+D:\Ycheba\ServernProg\GreenSwamp\GreenSwamp\obj\Debug\net8.0\GreenSwamp.csproj.Up2Date
+D:\Ycheba\ServernProg\GreenSwamp\GreenSwamp\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\Ycheba\ServernProg\GreenSwamp\GreenSwamp\bin\Debug\net8.0\MailKit.dll
+D:\Ycheba\ServernProg\GreenSwamp\GreenSwamp\bin\Debug\net8.0\MimeKit.dll
+D:\Ycheba\ServernProg\GreenSwamp\GreenSwamp\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Ycheba\ServernProg\GreenSwamp\GreenSwamp\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

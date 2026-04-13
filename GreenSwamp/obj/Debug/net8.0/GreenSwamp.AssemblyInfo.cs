@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GreenSwamp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7d2431d6ca87a9cad4c7284b6cd03c272f2d4ad")]
 [assembly: System.Reflection.AssemblyProductAttribute("GreenSwamp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GreenSwamp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
