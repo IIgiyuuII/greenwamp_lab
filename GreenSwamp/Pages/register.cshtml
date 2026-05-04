@@ -21,11 +21,27 @@
 
             <!-- Registration Card -->
             <div class="max-w-2xl mx-auto bg-white rounded-2xl shadow-lg p-8 sm:p-12 border border-swamp-100">
-                <form class="space-y-8">
-                    <!-- Name Input -->
+                @if (ViewData["Error"] != null)
+                {
+                    <div class="p-4 bg-red-50 border border-red-200 rounded-xl text-red-700 text-sm">@ViewData["Error"]</div>
+                }
+                <form method="post" action="/account/register" class="space-y-8">
+                    <!-- Username -->
                     <div class="space-y-2">
-                        <label class="block text-base font-semibold text-swamp-900">Full Name</label>
-                        <input type="text" required 
+                        <label class="block text-base font-semibold text-swamp-900">Username</label>
+                        <input type="text" name="username" required autofocus
+                            class="mt-1 block w-full rounded-xl bg-white px-5 py-3.5
+                                   border border-swamp-200 focus:border-swamp-400 
+                                   focus:ring-2 focus:ring-swamp-200 placeholder-slate-400
+                                   text-slate-900 shadow-sm"
+                            placeholder="cool_frog_42">
+                        <p class="text-xs text-swamp-500">Только буквы, цифры и _</p>
+                    </div>
+
+                    <!-- Display Name -->
+                    <div class="space-y-2">
+                        <label class="block text-base font-semibold text-swamp-900">Display Name</label>
+                        <input type="text" name="displayName" required 
                             class="mt-1 block w-full rounded-xl bg-white px-5 py-3.5
                                    border border-swamp-200 focus:border-swamp-400 
                                    focus:ring-2 focus:ring-swamp-200 placeholder-slate-400
@@ -33,21 +49,21 @@
                             placeholder="Princess Toadstool">
                     </div>
     
-                    <!-- Email Input -->
+                    <!-- Password -->
                     <div class="space-y-2">
-                        <label class="block text-base font-semibold text-swamp-900">Email</label>
-                        <input type="email" required 
+                        <label class="block text-base font-semibold text-swamp-900">Password</label>
+                        <input type="password" name="password" required 
                             class="mt-1 block w-full rounded-xl bg-white px-5 py-3.5
                                    border border-swamp-200 focus:border-swamp-400 
                                    focus:ring-2 focus:ring-swamp-200 placeholder-slate-400
                                    text-slate-900 shadow-sm"
-                            placeholder="you@example.com">
+                            placeholder="••••••••">
                     </div>
-    
-                    <!-- Password Input -->
+
+                    <!-- Confirm Password -->
                     <div class="space-y-2">
-                        <label class="block text-base font-semibold text-swamp-900">Password</label>
-                        <input type="password" required 
+                        <label class="block text-base font-semibold text-swamp-900">Confirm Password</label>
+                        <input type="password" name="confirmPassword" required 
                             class="mt-1 block w-full rounded-xl bg-white px-5 py-3.5
                                    border border-swamp-200 focus:border-swamp-400 
                                    focus:ring-2 focus:ring-swamp-200 placeholder-slate-400

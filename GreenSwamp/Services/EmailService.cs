@@ -42,11 +42,11 @@ namespace GreenSwamp.Services
                 await smtp.AuthenticateAsync(_mailSettings.Username, _mailSettings.Password);
                 await smtp.SendAsync(email);
 
-                Console.WriteLine($"✅ Email successfully sent to {toEmail}");
+                Console.WriteLine($" Email successfully sent to {toEmail}");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"❌ Failed to send email: {ex.Message}");
+                Console.WriteLine($" Failed to send email: {ex.Message}");
                 if (ex.InnerException != null)
                     Console.WriteLine($"Inner: {ex.InnerException.Message}");
                 throw;

@@ -84,6 +84,38 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Views/Feed/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Views/Ponds/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9uZHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Views/Ponds/TagPosts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9uZHNcVGFnUG9zdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Views/Post/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Views/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Ycheba/ServernProg/GreenSwamp/GreenSwamp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6hhutlnajv

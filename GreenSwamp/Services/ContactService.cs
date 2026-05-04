@@ -33,7 +33,7 @@ namespace GreenSwamp.Services
             
             var config = new CsvHelper.Configuration.CsvConfiguration(CultureInfo.InvariantCulture)
             {
-                HasHeaderRecord = false   // важно при добавлении
+                HasHeaderRecord = false   
             };
 
             await using var stream = File.Open(_csvPath, FileMode.Append);

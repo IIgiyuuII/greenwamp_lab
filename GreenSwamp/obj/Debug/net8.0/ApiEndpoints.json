@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "ContainingType": "GreenSwamp.Controllers.PostsApiController",
+    "Method": "CreatePost",
+    "RelativePath": "api/posts",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "content",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "media",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GreenSwamp.Controllers.PostsApiController",
+    "Method": "AddInteraction",
+    "RelativePath": "api/posts/{postId}/interactions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "GreenSwamp.Controllers.InteractionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
